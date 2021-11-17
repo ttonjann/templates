@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "spaceshop-asp"
+            "value": "ether-price-asp"
         },
         "location": {
             "value": "West Europe"

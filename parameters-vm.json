@@ -68,7 +68,7 @@
             "value": "vm1"
         },
         "virtualMachineRG": {
-            "value": "Python"
+            "value": "youngcapital"
         },
         "osDiskType": {
             "value": "Standard_LRS"

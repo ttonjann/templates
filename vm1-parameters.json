@@ -90,10 +90,20 @@
             "value": "Standard_DS1_v2"
         },
         "adminUsername": {
-            "value": "$(VM1username)"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/436729d8-64f5-4667-b0b4-4e9cd6513cca/resourceGroups/youngcapital/providers/Microsoft.KeyVault/vaults/youngcapital"
+                },
+                "secretName": "VM1username"
+            }
         },
         "adminPassword": {
-            "value": "$(VM1wachtwoord)"
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/436729d8-64f5-4667-b0b4-4e9cd6513cca/resourceGroups/youngcapital/providers/Microsoft.KeyVault/vaults/youngcapital"
+                },
+                "secretName": "VM1wachtwoord"
+            }
         },
         "patchMode": {
             "value": "AutomaticByOS"

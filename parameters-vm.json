@@ -80,7 +80,7 @@
             "value": "youngcapital"
         },
         "adminPassword": {
-            "value": ""
+            "value": "wachtwoord"
         },
         "patchMode": {
             "value": "AutomaticByOS"

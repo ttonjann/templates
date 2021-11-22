@@ -77,10 +77,10 @@
             "value": "Standard_DS1_v2"
         },
         "adminUsername": {
-            "value": "youngcapital"
+            "value": "$(VM1username)"
         },
         "adminPassword": {
-            "value": "wachtwoord"
+            "value": "$(VM1wachtwoord)"
         },
         "patchMode": {
             "value": "AutomaticByOS"

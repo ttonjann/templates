@@ -90,10 +90,10 @@
             "value": "Standard_DS1_v2"
         },
         "adminUsername": {
-            "value": "USERNAME"
+            "value": "$(VM1username)"
         },
         "adminPassword": {
-            "value": null
+            "value": "$(VM1wachtwoord)"
         },
         "patchMode": {
             "value": "AutomaticByOS"

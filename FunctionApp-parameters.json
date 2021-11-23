@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "436729d8-64f5-4667-b0b4-4e9cd6513cca"
+        },
+        "name": {
+            "value": "Ether-Price-Notification"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "hostingPlanName": {
+            "value": "ASP-youngcapital-b0f9"
+        },
+        "serverFarmResourceGroup": {
+            "value": "youngcapital"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "functionyc2110"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "use32BitWorkerProcess": {
+            "value": false
+        },
+        "linuxFxVersion": {
+            "value": "Python|3.9"
+        }
+    }
+}
